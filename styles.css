@@ -33,7 +33,7 @@ nav {
         5px 5px 0px #2e2e2e;
     background-color: #DEBC77;
     padding: 4px 20px;
-    border: solid 2px #2e2e2e;
+    border: solid 3px #2e2e2e;
 }
 
 .icone img {
@@ -53,7 +53,7 @@ nav a {
         3px 3px 0px #2e2e2e,
         4px 4px 0px #2e2e2e,
         5px 5px 0px #2e2e2e;
-    border: solid 2px #2e2e2e;
+    border: solid 3px #2e2e2e;
 }
 
 nav a.active {
@@ -115,8 +115,8 @@ nav a.active {
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
-    border-top: 2px solid #2e2e2e;
-    border-bottom: 2px solid #2e2e2e;
+    border-top: 3px solid #2e2e2e;
+    border-bottom: 3px solid #2e2e2e;
 }
 
 .faixa {
@@ -155,7 +155,7 @@ nav a.active {
 
 .titulo {
     background-color: #9E8BAF;
-    border: solid 2px #2e2e2e;
+    border: solid 3px #2e2e2e;
     box-shadow: 1px 1px 0px #2e2e2e,
         2px 2px 0px #2e2e2e,
         3px 3px 0px #2e2e2e,
@@ -197,7 +197,7 @@ nav a.active {
 
 .membro img {
     width: 250px;
-    border: 2px solid #2e2e2e;
+    border: 3px solid #2e2e2e;
     padding: 5px 10px;
     background-color: #fafaef;
     box-shadow: 1px 1px 0px #2e2e2e,
@@ -235,7 +235,7 @@ nav a.active {
     position: relative;
     top: 20px;
     justify-self: center;
-    border: 2px solid #2e2e2e;
+    border: 3px solid #2e2e2e;
     font-family: "Jersey 10", sans-serif;
     font-size: 25px;
     color: #2e2e2e;
@@ -252,7 +252,7 @@ nav a.active {
     position: relative;
     top: 20px;
     justify-self: center;
-    border: 2px solid #2e2e2e;
+    border: 3px solid #2e2e2e;
     font-family: "Jersey 10", sans-serif;
     font-size: 25px;
     color: #2e2e2e;
@@ -352,3 +352,4 @@ nav a.active {
         height: 50px;
     }
 }
+
