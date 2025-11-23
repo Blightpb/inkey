@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Jersey+10&family=Press+Start+2P&family=Tiny5&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F5F2DF;
+}
+
+header {
+    background-color: #6F5D88;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icone {
+    box-shadow: 1px 1px 0px #2e2e2e,
+        2px 2px 0px #2e2e2e,
+        3px 3px 0px #2e2e2e,
+        4px 4px 0px #2e2e2e,
+        5px 5px 0px #2e2e2e;
+    background-color: #DEBC77;
+    padding: 4px 20px;
+    border: solid 2px #2e2e2e;
+}
+
+.icone img {
+    height: 25px;
+}
+
+nav a {
+    color: #2e2e2e;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 20px;
+    padding: 8px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #55436D;
+    box-shadow: 1px 1px 0px #2e2e2e,
+        2px 2px 0px #2e2e2e,
+        3px 3px 0px #2e2e2e,
+        4px 4px 0px #2e2e2e,
+        5px 5px 0px #2e2e2e;
+    border: solid 2px #2e2e2e;
+}
+
+nav a.active {
+    background-color: #9E8BAF;
+}
+
+.logo {
+    margin-right: 5%;
+}
+
+.logo img {
+    height: 60px;
+}
+
+/* Seções */
+.section h1 {
+    background-color: #6F5D88;
+    padding: 30px 45px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:
+        -3px -3px 0 #2e2e2e,
+        4px -3px 0 #2e2e2e,
+        -3px 3px 0 #2e2e2e,
+        3px 3px 0 #2e2e2e,
+        0px -3px 0 #2e2e2e,
+        0px 3px 0 #2e2e2e,
+        -3px 0px 0 #2e2e2e,
+        3px 0px 0 #2e2e2e,
+        6px 6px 0 #DEBC77;
+    color: #fafaef;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+/* texto carrossel */
+.carrossel {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    background: #E2CC9E;
+    color: #fafaef;
+    text-shadow: -2px -2px 0 #2e2e2e,
+        2px -2px 0 #2e2e2e,
+        -2px 2px 0 #2e2e2e,
+        2px 2px 0 #2e2e2e,
+        0px -2px 0 #2e2e2e,
+        0px 2px 0 #2e2e2e,
+        -2px 0px 0 #2e2e2e,
+        2px 0px 0 #2e2e2e;
+    font-size: 24px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border-top: 2px solid #2e2e2e;
+    border-bottom: 2px solid #2e2e2e;
+}
+
+.faixa {
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+.track {
+    display: inline-block;
+    animation: mover 12s linear infinite;
+}
+
+@keyframes mover {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* conteudo sessão 1*/
+.equipe {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding-right: 30px;
+    padding-top: 30px;
+    gap: 10px;
+}
+
+.membro {
+    width: 250px;
+}
+
+.titulo {
+    background-color: #9E8BAF;
+    border: solid 2px #2e2e2e;
+    box-shadow: 1px 1px 0px #2e2e2e,
+        2px 2px 0px #2e2e2e,
+        3px 3px 0px #2e2e2e,
+        4px 4px 0px #2e2e2e,
+        5px 5px 0px #2e2e2e;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.titulo h1 {
+    background: none;
+    padding: 0;
+    text-shadow: none;
+    box-shadow: none;
+    color: #2e2e2e;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 25px;
+}
+
+.titulo p {
+    color: #fafaef;
+    text-shadow: -2px -2px 0 #2e2e2e,
+        2px -2px 0 #2e2e2e,
+        -2px 2px 0 #2e2e2e,
+        2px 2px 0 #2e2e2e,
+        0px -2px 0 #2e2e2e,
+        0px 2px 0 #2e2e2e,
+        -2px 0px 0 #2e2e2e,
+        2px 0px 0 #2e2e2e;
+    font-size: 24px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.membro img {
+    width: 250px;
+    border: 2px solid #2e2e2e;
+    padding: 5px 10px;
+    background-color: #fafaef;
+    box-shadow: 1px 1px 0px #2e2e2e,
+        2px 2px 0px #2e2e2e,
+        3px 3px 0px #2e2e2e,
+        4px 4px 0px #2e2e2e,
+        5px 5px 0px #2e2e2e;
+}
+
+.membro a {
+    position: relative;
+    bottom: 40px;
+    left: 15px;
+    font-size: 25px;
+    color: #2e2e2e;
+    font-family: "Jersey 10", sans-serif;
+}
+
+/* informações sobre a equipe */
+.sobre {
+    background-color: #E2CC9E;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding: 20px 200px;
+    gap: 40px;
+    height: 100px;
+    border-top: 2px solid #2e2e2e;
+    border-bottom: 2px solid #2e2e2e;
+    margin-bottom: 100px;
+}
+
+.texto1 {
+    background-color: #DEBC77;
+    position: relative;
+    top: 20px;
+    justify-self: center;
+    border: 2px solid #2e2e2e;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 25px;
+    color: #2e2e2e;
+    padding: 30px 20px;
+    box-shadow: 1px 1px 0px #2e2e2e,
+        2px 2px 0px #2e2e2e,
+        3px 3px 0px #2e2e2e,
+        4px 4px 0px #2e2e2e,
+        5px 5px 0px #2e2e2e;
+}
+
+.texto2 {
+    background-color: #C7C4D3;
+    position: relative;
+    top: 20px;
+    justify-self: center;
+    border: 2px solid #2e2e2e;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 25px;
+    color: #2e2e2e;
+    padding: 30px 20px;
+    box-shadow: 1px 1px 0px #2e2e2e,
+        2px 2px 0px #2e2e2e,
+        3px 3px 0px #2e2e2e,
+        4px 4px 0px #2e2e2e,
+        5px 5px 0px #2e2e2e;
+}
+
+.espacamento {
+    height: 30px;
+    margin: 40px;
+}
+
+/* responsividade */
+@media (max-width: 900px) {
+    .equipe {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sobre {
+        grid-template-columns: 1fr;
+        padding: 20px 100px;
+        gap: 40px;
+        height: 100px;
+        margin-top: 5%;
+    }
+
+    .titulo h1 {
+        font-size: 30px;
+    }
+
+    .membro a {
+        font-size: 30px;
+        bottom: 45px;
+        left: 20px;
+    }
+
+    .espacamento {
+        height: 30px;
+        margin: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .equipe {
+        zoom: 0.6;
+        gap: 5%;
+    }
+
+    .titulo {
+        border: solid 4px #2e2e2e;
+    }
+
+    .membro img {
+        border: solid 4px #2e2e2e;
+        position: relative;
+        bottom: 3px;
+    }
+
+    .sobre {
+        grid-template-columns: 1fr;
+        padding: 20px 40px;
+        gap: 40px;
+        height: 100px;
+        margin-top: 5%;
+    }
+
+    .espacamento {
+        height: 30px;
+        margin: 150px;
+    }
+}
+
+@media (max-width: 500px) {
+    .icone {
+        padding: 2px 10px;
+    }
+
+    .icone img {
+        height: 20px;
+        margin-top: 3px;
+    }
+
+    nav a {
+        padding: 5px 10px;
+    }
+
+    .logo {
+        margin-right: 10px;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+}

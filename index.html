@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="shortcut icon" href="img/7.png" type="image/x-icon"> <!-- foto da aba do site -->
+    <link rel="icon" href="img/7.png" sizes="16x16">
+
+    <title>Inkey</title>
+</head>
+
+<body>
+    <style></style>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <div class="icone"><img src="img/7.png" alt="" height="40"></div>
+                <a id="link1" class="active">Sobre nós</a>
+                <a id="link2">Projeto</a>
+            </div>
+            <div class="logo"><img src="img/4.png" alt=""></div>
+        </nav>
+
+        <div class="section section-background grupo1 active">
+            <h1>Conheça nossa <br> equipe Inkey!</h1>
+        </div>
+        <div class="section section-background grupo2">
+            <h1>Saiba mais sobre <br> o projeto</h1>
+        </div>
+    </header>
+
+    <div class="carrossel">
+        <div class="track">
+            <div class="faixa">Inkey • Inkey • Inkey • inkey • inkey • inkey • inkey • inkey •</div>
+            <div class="faixa">inkey • inkey • inkey • inkey • inkey • inkey • inkey • inkey •</div>
+        </div>
+    </div>
+
+    <div class="section grupo1 active">
+
+        <div class="equipe">
+
+            <div class="membro">
+                <div class="titulo">
+                    <h1>Gabriella</h1>
+                    <p>••</p>
+                </div>
+                <img src="img/gabi.png" alt="">
+                <a href="https://github.com/GabriellaMoura7">Github</a>
+            </div>
+
+            <div class="membro">
+                <div class="titulo">
+                    <h1>Juliana</h1>
+                    <p>••</p>
+                </div>
+                <img src="img/cu.png" alt="">
+                <a href="https://github.com/maxiecuti">Github</a>
+            </div>
+
+            <div class="membro">
+                <div class="titulo">
+                    <h1>Rafael</h1>
+                    <p>••</p>
+                </div>
+                <img src="img/khalli.png" alt="">
+                <a href="https://github.com/Khallizi02">Github</a>
+            </div>
+
+            <div class="membro">
+                <div class="titulo">
+                    <h1>Rafaela</h1>
+                    <p>••</p>
+                </div>
+                <img src="img/rafa.png" alt="">
+                <a href="https://github.com/Blightpb">Github</a>
+            </div>
+
+        </div>
+
+        <div class="sobre">
+            <p class="texto1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            <p class="texto2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+        </div>
+
+        <div class="espacamento"></div>
+
+        <div class="section grupo2">
+            
+        </div>
+
+        <script>
+            const link1 = document.getElementById('link1');
+            const link2 = document.getElementById('link2');
+            const grupo1 = document.querySelectorAll('.grupo1');
+            const grupo2 = document.querySelectorAll('.grupo2');
+
+            link1.addEventListener('click', () => {
+                grupo1.forEach(sec => sec.classList.add('active'));
+                grupo2.forEach(sec => sec.classList.remove('active'));
+                link1.classList.add('active');
+                link2.classList.remove('active');
+            });
+
+            link2.addEventListener('click', () => {
+                grupo2.forEach(sec => sec.classList.add('active'));
+                grupo1.forEach(sec => sec.classList.remove('active'));
+                link2.classList.add('active');
+                link1.classList.remove('active');
+            });
+        </script>
+</body>
+
+</html>
