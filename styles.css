@@ -625,8 +625,12 @@ nav a.active {
         height: 150px;
     }
 
-    .professores{
+    .professores {
         zoom: 0.9;
+    }
+
+    .box.expanded {
+        height: 175px;
     }
 
 }
