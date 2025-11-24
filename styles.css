@@ -630,7 +630,7 @@ nav a.active {
     }
 
     .box.expanded {
-        height: 175px;
+        height: 180px;
     }
 
 }
@@ -657,3 +657,4 @@ nav a.active {
         height: 50px;
     }
 }
+
