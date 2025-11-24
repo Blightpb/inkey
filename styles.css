@@ -33,7 +33,7 @@ nav {
         5px 5px 0px #2e2e2e;
     background-color: #DEBC77;
     padding: 4px 20px;
-    border: solid 3px #2e2e2e;
+    border: solid 2px #2e2e2e;
 }
 
 .icone img {
@@ -53,7 +53,7 @@ nav a {
         3px 3px 0px #2e2e2e,
         4px 4px 0px #2e2e2e,
         5px 5px 0px #2e2e2e;
-    border: solid 3px #2e2e2e;
+    border: solid 2px #2e2e2e;
 }
 
 nav a.active {
@@ -115,8 +115,8 @@ nav a.active {
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
-    border-top: 3px solid #2e2e2e;
-    border-bottom: 3px solid #2e2e2e;
+    border-top: 2px solid #2e2e2e;
+    border-bottom: 2px solid #2e2e2e;
 }
 
 .faixa {
@@ -155,7 +155,7 @@ nav a.active {
 
 .titulo {
     background-color: #9E8BAF;
-    border: solid 3px #2e2e2e;
+    border: solid 2px #2e2e2e;
     box-shadow: 1px 1px 0px #2e2e2e,
         2px 2px 0px #2e2e2e,
         3px 3px 0px #2e2e2e,
@@ -197,7 +197,7 @@ nav a.active {
 
 .membro img {
     width: 250px;
-    border: 3px solid #2e2e2e;
+    border: 2px solid #2e2e2e;
     padding: 5px 10px;
     background-color: #fafaef;
     box-shadow: 1px 1px 0px #2e2e2e,
@@ -235,7 +235,7 @@ nav a.active {
     position: relative;
     top: 20px;
     justify-self: center;
-    border: 3px solid #2e2e2e;
+    border: 2px solid #2e2e2e;
     font-family: "Jersey 10", sans-serif;
     font-size: 25px;
     color: #2e2e2e;
@@ -252,7 +252,7 @@ nav a.active {
     position: relative;
     top: 20px;
     justify-self: center;
-    border: 3px solid #2e2e2e;
+    border: 2px solid #2e2e2e;
     font-family: "Jersey 10", sans-serif;
     font-size: 25px;
     color: #2e2e2e;
@@ -269,7 +269,274 @@ nav a.active {
     margin: 40px;
 }
 
+/* conteudo sessão 2*/
+.projeto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+/* video */
+.video {
+    width: 450px;
+    padding-top: 20px;
+}
+
+.titulo-video {
+    background-color: #9E8BAF;
+    border: solid 2px #2e2e2e;
+    box-shadow: 1px 1px 0px #2e2e2e,
+        2px 2px 0px #2e2e2e,
+        3px 3px 0px #2e2e2e,
+        4px 4px 0px #2e2e2e,
+        5px 5px 0px #2e2e2e;
+    display: flex;
+    align-items: center;
+    width: 450px;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+}
+
+.titulo-video h1 {
+    background: none;
+    padding: 0;
+    text-shadow: none;
+    box-shadow: none;
+    color: #2e2e2e;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 27px;
+}
+
+.titulo-video p {
+    color: #fafaef;
+    text-shadow: -2px -2px 0 #2e2e2e,
+        2px -2px 0 #2e2e2e,
+        -2px 2px 0 #2e2e2e,
+        2px 2px 0 #2e2e2e,
+        0px -2px 0 #2e2e2e,
+        0px 2px 0 #2e2e2e,
+        -2px 0px 0 #2e2e2e,
+        2px 0px 0 #2e2e2e;
+    font-size: 24px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.video img {
+    width: 450px;
+    height: 250px;
+    border: 2px solid #2e2e2e;
+    padding: 10px;
+    background-color: #fafaef;
+    box-shadow: 1px 1px 0px #2e2e2e,
+        2px 2px 0px #2e2e2e,
+        3px 3px 0px #2e2e2e,
+        4px 4px 0px #2e2e2e,
+        5px 5px 0px #2e2e2e;
+}
+
+/* tecnologias */
+.tecnologias {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.tecnologias h1 {
+    font-size: 30px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2e2e2e;
+    background: none;
+    text-shadow: none;
+}
+
+.box {
+    height: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 15px;
+    margin-right: 85px;
+
+    border: 2px solid #2e2e2e;
+    box-shadow: 1px 1px 0px #2e2e2e,
+        2px 2px 0px #2e2e2e,
+        3px 3px 0px #2e2e2e,
+        4px 4px 0px #2e2e2e,
+        5px 5px 0px #2e2e2e;
+}
+
+.box h2 {
+    font-size: 20px;
+    color: #fafaef;
+    text-shadow: -2px -2px 0 #2e2e2e,
+        2px -2px 0 #2e2e2e,
+        -2px 2px 0 #2e2e2e,
+        2px 2px 0 #2e2e2e,
+        0px -2px 0 #2e2e2e,
+        0px 2px 0 #2e2e2e,
+        -2px 0px 0 #2e2e2e,
+        2px 0px 0 #2e2e2e;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    transition: opacity 0.1s ease-out, transform 0.1s ease-out;
+}
+
+.box.expanded {
+    height: 135px;
+    background-color: #2f4156;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: #2e2e2e;
+}
+
+.box.collapsed {
+    height: 1px;
+    background-color: #c8d9e6;
+    color: #567c8d;
+}
+
+
+.content {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    padding: 15px;
+}
+
+.box.expanded .content {
+    opacity: 1;
+}
+
+.box.collapsed h2 {
+    opacity: 0;
+    font-size: 5px;
+}
+
+#box1 {
+    background-color: #C7C4D3;
+}
+
+#box2 {
+    background-color: #E2CC9E;
+}
+
+#box3 {
+    background-color: #DEBC77;
+}
+
+/* professores */
+.professores {
+    padding: 30px;
+}
+
+.professores h1 {
+    font-size: 30px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2e2e2e;
+    background: none;
+    text-shadow: none;
+}
+
+.professor {
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.professor img {
+    width: 80px;
+    height: auto;
+    border: 2px solid #2e2e2e;
+    box-shadow: 1px 1px 0px #2e2e2e,
+        2px 2px 0px #2e2e2e,
+        3px 3px 0px #2e2e2e,
+        4px 4px 0px #2e2e2e,
+        5px 5px 0px #2e2e2e;
+    background-color: #fafaef;
+}
+
+.info a img {
+    width: 45px;
+    object-fit: contain;
+    display: block;
+    background: none;
+    box-shadow: none;
+    border: none;
+    transition: all 0.2s;
+}
+
+.info a img:hover {
+    transform: scale(90%);
+    transition: all 0.2s;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    /* alinha o github verticalmente */
+}
+
+.nome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nome h1 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #2e2e2e;
+    font-size: 16px;
+    margin-left: -10px;
+}
+
+.nome p {
+    font-size: 25px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #55436D;
+    margin-left: 35px;
+    position: relative;
+    bottom: 15px;
+}
+
+.separacao {
+    background-color: #2e2e2e;
+    width: 100%;
+    height: 2px;
+    position: relative;
+    bottom: 20px;
+}
+
+
 /* responsividade */
+@media (max-width: 1200px) {
+    .equipe {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projeto {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 900px) {
     .equipe {
         grid-template-columns: repeat(2, 1fr);
@@ -297,6 +564,12 @@ nav a.active {
         height: 30px;
         margin: 100px;
     }
+
+    .box {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -325,7 +598,35 @@ nav a.active {
 
     .espacamento {
         height: 30px;
-        margin: 150px;
+        margin: 100px;
+    }
+
+    /* video */
+    .video {
+        width: 320px;
+        padding-top: 20px;
+        margin-right: 30px;
+    }
+
+    .titulo-video {
+        width: 320px;
+    }
+
+    .titulo-video h1 {
+        font-size: 20px;
+    }
+
+    .titulo-video p {
+        font-size: 20px;
+    }
+
+    .video img {
+        width: 320px;
+        height: 150px;
+    }
+
+    .professores{
+        zoom: 0.9;
     }
 
 }
@@ -352,4 +653,3 @@ nav a.active {
         height: 50px;
     }
 }
-
