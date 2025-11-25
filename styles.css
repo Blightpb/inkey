@@ -635,6 +635,7 @@ nav a.active {
         gap: 40px;
         height: 100px;
         margin-top: 5%;
+        margin-bottom: 380px;
     }
 
     .titulo h1 {
@@ -645,11 +646,6 @@ nav a.active {
         font-size: 30px;
         bottom: 50px;
         left: 20px;
-    }
-
-    .espacamento {
-        height: 30px;
-        margin: 100px;
     }
 
     .box {
@@ -693,11 +689,7 @@ nav a.active {
         gap: 40px;
         height: 100px;
         margin-top: 5%;
-    }
-
-    .espacamento {
-        height: 30px;
-        margin: 100px;
+        margin-bottom: 500px;
     }
 
     /* video */
