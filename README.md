@@ -1,7 +1,7 @@
 # INKEY - Conheça nossa equipe e nosso primeiro projeto!
 
 Bem-vindo ao site oficial da **Inkey**!  
-Aqui você pode conferir o resultado do nosso projeto integrador do curso técnico de **desenvolvimento de sistemas**, que consiste em sistemas de agendamentos.
+Aqui você pode conferir um vídeo do resultado do nosso projeto integrador do curso técnico de **desenvolvimento de sistemas**, que consiste em sistema simples de agendamentos. Acesse diretamente por aqui: [Inkey](https://blightpb.github.io/inkey/) 
 
 ---
 
